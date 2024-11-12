@@ -13,7 +13,7 @@ class MultitaskModel(nn.Module):
         self.task_b_head = nn.Linear(hidden_dim, 1)  # Regression
 
     def forward(self, x):
-        shared_representation = self.shared_layer(x)
+        shared_representation = self.shared_layer(x)  # This should now output 50 dimensions
         task_a_output = torch.sigmoid(self.task_a_head(shared_representation))
         task_b_output = self.task_b_head(shared_representation)
         return task_a_output, task_b_output
