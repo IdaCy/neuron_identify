@@ -26,6 +26,6 @@ This will save the trained models in the models/ directory.
 
 After training, you can run the Jupyter notebook notebooks/visualize_task_neurons.ipynb to visualise and run tests!
 
-## How to Contribute
+## Contributions
 
 This project is open to contributions!
