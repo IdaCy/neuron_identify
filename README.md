@@ -11,11 +11,13 @@ Install the required dependencies:
     pip install torch matplotlib seaborn notebook simpy
 
 2. Generating Sample Data
+
 To generate sample data for testing, run the sample_data_generation.py script:
 
     python3 data/sample_data_generation.py
 
 3. Training the Autoencoders
+
 To train sparse autoencoders on task-specific activations, run:
 
     python3 src/train_autoencoder.py
