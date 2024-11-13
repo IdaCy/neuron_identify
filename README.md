@@ -8,7 +8,7 @@ This repository contains code and tools for experimenting with isolating task-re
 
 Install the required dependencies:
 
-    pip install torch matplotlib
+    pip install torch matplotlib seaborn notebook simpy
 
 2. Generating Sample Data
 To generate sample data for testing, run the sample_data_generation.py script:
