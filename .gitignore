@@ -1,2 +1,5 @@
 src/__pycache__
-data/sample_data.pt
+data/*.pt
+notebooks/data
+notebooks/models
+models/*
